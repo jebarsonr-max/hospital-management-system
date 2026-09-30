@@ -55,19 +55,30 @@ This project demonstrates how core data structure concepts implemented in C (str
 ## 📂 Project Structure
 
 ```text
-HOSIPTAL MANAGEMENT/
+HOSPITAL MANAGEMENT/
 │
-├── hospital_management.c   # Original C Core Source Code
-├── server.js               # Node.js + Express Backend & REST APIs
-├── package.json            # NPM dependencies & scripts
-├── render.yaml             # Render free cloud hosting configuration
-├── .gitignore              # Files excluded from Git/GitHub
-├── README.md               # Project documentation
+├── frontend/                 # Web Application Frontend
+│   ├── index.html            # Single-Page UI & Dashboard
+│   ├── css/
+│   │   └── style.css         # Responsive styles & layout
+│   ├── js/
+│   │   └── app.js            # Client-side API integration & DOM logic
+│   └── assets/
+│       └── images/
 │
-└── public/                 # Web Application Frontend
-    ├── index.html          # Single-Page UI & Dashboard
-    ├── style.css           # Responsive styles & layout
-    └── app.js              # Client-side API integration & DOM logic
+├── backend/
+│   ├── server.js             # Node.js + Express Backend & REST APIs
+│   ├── routes/
+│   ├── controllers/
+│   └── data/
+│
+├── c-program/
+│   └── hospital_management.c # Original C Core Source Code
+│
+├── package.json              # NPM dependencies & scripts
+├── render.yaml               # Render free cloud hosting configuration
+├── .gitignore                # Files excluded from Git/GitHub
+└── README.md                 # Project documentation
 ```
 
 ---
